@@ -1,0 +1,9 @@
+
+re
+requests
+numpy
+streamlit
+beautifulsoup4
+google-generativeai
+youtube-transcript-api
+scikit-learn
