@@ -1,3 +1,4 @@
+impost os
 import re
 import requests
 import numpy as np
@@ -8,7 +9,7 @@ from youtube_transcript_api import YouTubeTranscriptApi
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-api_key = 'AIzaSyCLotwP1SSJvkIr-V8og2O78PM4_e2_vCg'
+api_key = os.getenv('API_KEY')
 
 def get_model():
     genai.configure(api_key=api_key)
